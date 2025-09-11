@@ -1,6 +1,23 @@
 {
   "keys": [
     {
+      "kty": "EC",
+      "use": "sig",
+      "kid": "sig-ec2-0",
+      "alg": "ES256",
+      "crv": "P-256",
+      "x": "0ewTRtoJUFQBv7uH2J3oSNzoeBysNJ2knlePuwgamVU",
+      "y": "MoOYvM1tjhTkHoRE15IkEgPM_2ob0sBH9NQlhKcKT5I"
+    },
+    {
+      "kty": "EC",
+      "use": "enc",
+      "kid": "enc-ec2-0",
+      "crv": "P-256",
+      "x": "J8O_IsA-5hKcDAMxNqJYZdhv5Vo9sPCpmGAiQ9JSCqc",
+      "y": "w39NIHQIvD4fpYg4sMMOr6U74p7nKqVCdbY5aTKtQ-Q"
+    },
+    {
       "kty": "RSA",
       "use": "sig",
       "kid": "sig-rs-0",
